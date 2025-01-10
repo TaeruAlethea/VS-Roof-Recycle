@@ -1,10 +1,10 @@
 {
   "type": "content",
   "modid": "examplecontentmod",
-  "name": "VS Wiki Example Content Mod",
+  "name": "Roof Recycling",
   "authors": [
     "Nat @ Vintage Story Wiki"
   ],
-  "description": "An example showcase of content mod additions.",
+  "description": "A mod to recycle roofs.",
   "version": "1.0.0"
 }

@@ -1,0 +1,23 @@
+﻿{
+  "ingredientPattern": "T,R",
+  "width": 3,
+  "height": 3,
+  "shapeless": true,
+  "ingredients": {
+	"T": {
+	  "type": "item",
+	  "code": "game:hammer-*",
+	  "isTool": true,
+	  "toolDurabilityCost": 2
+	},
+	"R": {
+	  "type": "block",
+	  "code": "game:",
+	  "name": "wood"
+	}
+  },
+  "output": {
+	"type": "item",
+	"code": "game:plank-{wood}"	
+  }
+}

@@ -1,22 +1,86 @@
 ﻿[
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
-	  "R": { "type": "block", "code": "game:slantedroofing-*-east-free", "name": "wood",
-		"skipVariants": ["copper", "slate", "thatch", "agedthatch", "blackclay",
-		  "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay",
-		  "tanclay", "bamboo", "sod"] }
-	},
-	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofing-*-east-free", "name": "wood", 
+		"allowedVariants": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+	}, "output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
-	  "R": { "type": "block", "code": "game:slantedroofing-bamboo-east-free", "quantity": 2 },
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerinner-*-east-free", "name": "wood",
+		"allowedVariants": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+	}, "output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerouter-*-east-free", "name": "wood",
+		"allowedVariants": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+	}, "output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingridge-*-ns-free", "name": "wood",
+		"allowedVariants": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+	}, "output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingtip-*-free", "name": "wood",
+		"allowedVariants": ["acacia", "aged", "baldcypress", "birch", "ebony", "kapok", "larch", "maple", "oak", "pine", "purpleheart", "redwood", "walnut"] }
+	}, "output": { "type": "item", "code": "game:plank-{wood}", "quantity": 8 }
+  },
+  
+  {
+	"__comment": "Bamboo too.",
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofing-bamboo-east-free", "quantity": 2 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
 	  "R": { "type": "block", "code": "game:slantedroofingcornerinner-bamboo-east-free", "quantity": 2 }
-	},
-	"output": { "type": "item", "code": "game:bamboo", "quantity": 6 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerouter-bamboo-east-free", "quantity": 2 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingridge-bamboo-ns-free", "quantity": 2 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingtip-bamboo-free", "quantity": 2 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 4 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:knife-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:stackedbamboo-ud", "quantity": 1 }
+	}, "output": { "type": "item", "code": "game:bamboostakes", "quantity": 4 }
   }
 ]

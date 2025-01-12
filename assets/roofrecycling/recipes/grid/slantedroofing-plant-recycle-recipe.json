@@ -1,0 +1,43 @@
+﻿[
+  {
+	"__comment": "There is no way to know what type of wood was used.",
+	"ingredientPattern": "STR", "width": 3, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "T": { "type": "item", "code": "game:shovel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofing-sod-east-free" }
+	}, "output": { "type": "item", "code": "game:drygrass" }
+  },
+  {
+	"ingredientPattern": "STR", "width": 3, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "T": { "type": "item", "code": "game:shovel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerinner-sod-east-free" }
+	}, "output": { "type": "item", "code": "game:drygrass" }
+  },
+  {
+	"ingredientPattern": "STR", "width": 3, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "T": { "type": "item", "code": "game:shovel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerouter-sod-east-free" }
+	}, "output": { "type": "item", "code": "game:drygrass" }
+  },
+  {
+	"ingredientPattern": "STR", "width": 3, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "T": { "type": "item", "code": "game:shovel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingridge-sod-ns-free" }
+	}, "output": { "type": "item", "code": "game:drygrass" }
+  },
+  {
+	"ingredientPattern": "STR", "width": 3, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+	  "T": { "type": "item", "code": "game:shovel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingtip-sod-free" }
+	}, "output": { "type": "item", "code": "game:drygrass" }
+  }
+]

@@ -1,22 +1,66 @@
 ﻿[
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 1 },
-	  "R": { "type": "block", "code": "game:slantedroofing-*clay-east-free", "name": "color",
-		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", 
-		  "grayclay", "orangeclay", "redclay", "tanclay"] }
-	},
-	"output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 1 }
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofing-*clay-east-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 3 }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 1 },
-	  "R": { "type": "block", "code": "game:slantedroofing-*clay-east-free", "name": "color",
-		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay",
-		  "grayclay", "orangeclay", "redclay", "tanclay"] }
-	},
-	"output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 1 }
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerinner-*clay-east-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerouter-*clay-east-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingridge-*clay-ns-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 3 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:slantedroofingtip-*clay-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 4 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:clayshingleblock-*clay", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 4 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:clayshinglelabs-*clay-down-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 2 }
+  },
+  {
+	"ingredientPattern": "TR", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:chisel-*", "isTool": true },
+	  "R": { "type": "block", "code": "game:clayshinglestairs-*clay-up-north-free", "name": "color", "quantity": 2,
+		"allowedVariants": ["blackclay", "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay", "tanclay"] }
+	}, "output": { "type": "item", "code": "game:shingle-burned-{color}", "quantity": 3 }
   }
 ]

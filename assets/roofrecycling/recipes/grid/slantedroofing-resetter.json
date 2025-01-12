@@ -1,59 +1,54 @@
 ﻿[
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"__comment": "Slanted Options.",
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofingbottom-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free" }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofingtop-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free" }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofinghalfleft-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free" }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofinghalfright-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofing-{type}-east-free" }
   },
   
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"__comment": "Ridge Items.",
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofingridgeend-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free" }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofingridgehalfleft-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free" }
   },
   {
-	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredientPattern": "R", "width": 1, "height": 1,
 	"ingredients": {
-	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
 	  "R": { "type": "block", "code": "game:slantedroofingridgehalfright-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free" }
   }
 ]

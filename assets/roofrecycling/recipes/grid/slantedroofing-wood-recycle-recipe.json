@@ -9,5 +9,14 @@
 		  "tanclay", "bamboo", "sod"] }
 	},
 	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+  },
+  {
+	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+	  "R": { "type": "block", "code": "game:slantedroofing-bamboo-east-free", "quantity": 2 },
+	  "R": { "type": "block", "code": "game:slantedroofingcornerinner-bamboo-east-free", "quantity": 2 }
+	},
+	"output": { "type": "item", "code": "game:bamboo", "quantity": 6 }
   }
 ]

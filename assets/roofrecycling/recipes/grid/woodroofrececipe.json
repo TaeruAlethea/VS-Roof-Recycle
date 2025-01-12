@@ -12,7 +12,7 @@
 	},
 	"R": {
 	  "type": "block",
-	  "code": "game:",
+	  "code": "game:slantedroofing-*-east-free",
 	  "name": "wood"
 	}
   },

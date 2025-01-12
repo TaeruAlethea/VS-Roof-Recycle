@@ -1,0 +1,11 @@
+﻿[
+  {
+	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 2 },
+	  "R": { "type": "block", "code": "game:slantedroofing-*-east-free", "name": "metal",
+		"allowedVariants": ["copper"] }
+	},
+	"output": { "type": "item", "code": "game:metalplate-{metal}", "quantity": 1 }
+  }
+]

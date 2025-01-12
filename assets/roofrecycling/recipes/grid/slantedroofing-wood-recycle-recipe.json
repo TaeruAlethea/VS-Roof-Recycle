@@ -1,0 +1,13 @@
+﻿[
+  {
+	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
+	"ingredients": {
+	  "T": { "type": "item", "code": "game:saw-*", "isTool": true, "toolDurabilityCost": 2 },
+	  "R": { "type": "block", "code": "game:slantedroofing-*-east-free", "name": "wood",
+		"skipVariants": ["copper", "slate", "thatch", "agedthatch", "blackclay",
+		  "brownclay", "creamclay", "fireclay", "grayclay", "orangeclay", "redclay",
+		  "tanclay", "bamboo", "sod"] }
+	},
+	"output": { "type": "item", "code": "game:plank-{wood}", "quantity": 6 }
+  }
+]

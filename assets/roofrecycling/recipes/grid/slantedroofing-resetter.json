@@ -52,8 +52,8 @@
 	"ingredientPattern": "T,R", "width": 2, "height": 1, "shapeless": true,
 	"ingredients": {
 	  "T": { "type": "item", "code": "game:wrench-*", "isTool": true, "toolDurabilityCost": 0 },
-	  "R": { "type": "block", "code": "game:slantedroofingridgehalfleft-*-east-free", "name": "type" }
+	  "R": { "type": "block", "code": "game:slantedroofingridgehalfright-*-east-free", "name": "type" }
 	},
-	"output": { "type": "block", "code": "game:slantedroofingridgehalfright-*-east-free", "quantity": 1 }
+	"output": { "type": "block", "code": "game:slantedroofingridge-{type}-ns-free", "quantity": 1 }
   }
 ]

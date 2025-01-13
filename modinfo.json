@@ -6,7 +6,7 @@
     "TaeruAlethea @ Team Demon Deer"
   ],
   "description": "A mod to recycle roofs.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "survival": "1.20.0-rc.8"
   }
